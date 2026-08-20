@@ -1,0 +1,151 @@
+git init
+add 
+commit
+
+
+git init
+ls -a .git
+git add Question1 Question2
+git commit -m "adding question1,2"
+git branch 
+git push -u origin 
+
+kafka,graghql,redies
+
+
+
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git init
+Initialized empty Git repository in C:/Users/yaminisudha.pydisett/OneDrive - Acuvate Software Private Limited/javascript/Day1/.git/
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git add .     
+warning: adding embedded git repository: FizzBuzz      
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> FizzBuzz
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached FizzBuzz
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: adding embedded git repository: Palindrome
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git add .
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git commit -m "added js questions"
+[master (root-commit) e94abb8] added js questions
+ Committer: Yaminisudha Pydisetti <yaminisudha.pydisetti@acuvate.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 100 insertions(+)
+ create mode 100644 Anagram/Anagram.html
+ create mode 100644 Anagram/Anagram.js
+ create mode 160000 FizzBuzz
+ create mode 100644 FizzBuzz.html
+ create mode 100644 FizzBuzz.js
+ create mode 100644 MissingNumber/Missing.html
+ create mode 100644 MissingNumber/Missing.js
+ create mode 160000 Palindrome
+ create mode 100644 ReverseString/Rev.html
+ create mode 100644 ReverseString/Rev.js
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git remore add origin https://github.com/PYAMINISUDHA/Javascript.git
+git: 'remore' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git remote add origin https://github.com/PYAMINISUDHA/Javascript.git
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1> git push -u origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1.57 KiB | 94.00 KiB/s, done.
+Total 13 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/PYAMINISUDHA/Javascript.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\yaminisudha.pydisett\OneDrive - Acuvate Software Private Limited\javascript\Day1>
+
+
+
+GitHub
+GitHub actions
+docker
+kubernets
+cloud-key artifact repo 
+devops
+
+
+
+fde
+
+
+
+20/8
+
+for each_num in range(1,11):
+    i=2*each_num
+    if i>10:
+        break
+    print(f"2 * {each_num} ={i}")
+
+tables from 1 t0 5:
+
+for j in range(1,6):
+    for each_num in range(1,11):
+        i=j*each_num
+        print(f"{j} * {each_num} ={i}")
+
+
+for j in range(1,6):
+    if j==4:
+        continue
+    for each_num in range(1,11):
+        i=j*each_num
+        print(f"{j} * {each_num} ={i}")
+
+continue:
+for j in range(1,6):
+    if j==4:
+        continue
+    for each_num in range(1,11):
+        i=j*each_num
+        if each_num==8:
+            continue
+        
+        print(f"{j} * {each_num} ={i}")
+
+pass:
+age = 20
+
+if age >= 18:
+    pass
+else:
+    print("You are a minor")
+unicodes:
+for unicode in range(65,91):
+    print(chr(unicode))
+unicodes from 0-123:
+for unicode in range(0,123):
+    print(chr(unicode))
+    
+
+    
+
+
+
